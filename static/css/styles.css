@@ -1,0 +1,63 @@
+.active-link {
+    color: rgb(27, 25, 25);
+  }
+
+/* CSS cho phần tử nền ảnh và chữ */
+
+.relative.bg-cover .absolute svg {
+  z-index: 0; 
+}
+
+/* CSS cho dropdown menu */
+#userMenu {
+  position: absolute;
+  z-index: 10000; 
+}
+
+
+/* Hiệu ứng phóng to khi hover */
+.max-w-xs {
+  transition: transform 0.3s ease;
+}
+
+.max-w-xs:hover {
+  transform: scale(1.2);
+}
+
+body {
+  background-color: #1a1a1a; 
+  color: #e0e0e0; 
+}
+
+header, footer {
+  background-color: #333; 
+}
+
+button, a {
+  background-color: #2e3039; 
+  color: #fff; 
+}
+
+input {
+  background-color: #fff; 
+  color: #0a0a0a;
+}
+
+h2.text-2xl {
+  color: #000000; 
+}
+
+
+/* Sign-up*/
+.text-black {
+  color: #000000; 
+}
+
+/* Chuyển màu đen và nền đậm cho link */
+.highlight-link {
+  color: #000000; 
+  background-color: #dad2f0; 
+  padding: 2px 4px; 
+  border-radius: 4px; 
+  text-decoration: none; 
+}

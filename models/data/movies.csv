@@ -1,0 +1,565 @@
+movieId,title,genres
+1,Toy Story,"Adventure, Animation, Children, Comedy, Fantasy"
+2,Jumanji,"Adventure, Children, Fantasy"
+3,Grumpier Old Men,"Comedy, Romance"
+4,Waiting to Exhale,"Comedy, Drama, Romance"
+5,Father of the Bride Part II,Comedy
+6,Heat,"Action, Crime, Thriller"
+7,Sabrina,"Comedy, Romance"
+8,Tom and Huck,"Adventure, Children"
+9,Sudden Death,Action
+10,GoldenEye,"Action, Adventure, Thriller"
+11,"American President, The","Comedy, Drama, Romance"
+12,Balto,"Adventure, Animation, Children"
+13,Nixon,Drama
+14,Cutthroat Island,"Action, Adventure, Romance"
+15,Casino,"Crime, Drama"
+16,Sense and Sensibility,"Drama, Romance"
+17,Four Rooms,Comedy
+18,Money Train,"Action, Comedy, Crime, Drama, Thriller"
+19,Get Shorty,"Comedy, Crime, Thriller"
+20,Copycat,"Crime, Drama, Horror, Mystery, Thriller"
+21,Assassins,"Action, Crime, Thriller"
+22,Powder,"Drama, Sci-Fi"
+23,Leaving Las Vegas,"Drama, Romance"
+24,Othello,Drama
+25,Now and Then,"Children, Drama"
+26,Persuasion,"Drama, Romance"
+27,City of Lost Children,"Adventure, Drama, Fantasy, Mystery, Sci-Fi"
+28,Shanghai Triad ,"Crime, Drama"
+29,Dangerous Minds,Drama
+30,Twelve Monkeys (a.k.a. 12 Monkeys),"Mystery, Sci-Fi, Thriller"
+31,Babe,"Children, Drama"
+32,Carrington,"Drama, Romance"
+33,Dead Man Walking,"Crime, Drama"
+34,Across the Sea of Time,"Documentary, IMAX"
+35,It Takes Two,"Children, Comedy"
+36,Clueless,"Comedy, Romance"
+37,"Cry, the Beloved Country",Drama
+38,Richard III,"Drama, War"
+39,Dead Presidents,"Action, Crime, Drama"
+40,Restoration,Drama
+41,Mortal Kombat,"Action, Adventure, Fantasy"
+42,To Die For,"Comedy, Drama, Thriller"
+43,How to Make an American Quilt,"Drama, Romance"
+44,Seven (a.k.a. Se7en),"Mystery, Thriller"
+45,Pocahontas,"Animation, Children, Drama, Musical, Romance"
+46,When Night Is Falling,"Drama, Romance"
+47,"Usual Suspects, The","Crime, Mystery, Thriller"
+48,Mighty Aphrodite,"Comedy, Drama, Romance"
+49,Lamerica,"Adventure, Drama"
+50,"Big Green, The","Children, Comedy"
+51,Georgia,Drama
+52,Home for the Holidays,Drama
+53,"Postman, The (Postino, Il)","Comedy, Drama, Romance"
+54,"Confessional, The Confessionnal, Le","Drama, Mystery"
+55,"Indian in the Cupboard, The","Adventure, Children, Fantasy"
+56,Eye for an Eye,"Drama, Thriller"
+57,Mr. Holland's Opus,Drama
+58,Don't Be a Menace to South Central While Drinking Your Juice in the Hood,"Comedy, Crime"
+59,Two if by Sea,"Comedy, Romance"
+60,Bio-Dome,Comedy
+61,French Twist (Gazon maudit),"Comedy, Romance"
+62,Friday,Comedy
+63,From Dusk Till Dawn,"Action, Comedy, Horror, Thriller"
+64,Fair Game,Action
+65,Kicking and Screaming,"Comedy, Drama"
+66,"Misérables, Les","Drama, War"
+67,Bed of Roses,"Drama, Romance"
+68,Screamers,"Action, Sci-Fi, Thriller"
+69,Nico Icon,Documentary
+70,"Crossing Guard, The","Action, Crime, Drama, Thriller"
+71,"Juror, The","Drama, Thriller"
+72,"White Balloon, The (Badkonake sefid)","Children, Drama"
+73,Things to Do in Denver When You're Dead,"Crime, Drama, Romance"
+74,Antonia's Line (Antonia),"Comedy, Drama"
+75,Once Upon a Time... When We Were Colored,"Drama, Romance"
+76,Last Summer in the Hamptons,"Comedy, Drama"
+77,Angels and Insects,"Drama, Romance"
+78,White Squall,"Action, Adventure, Drama"
+79,Dunston Checks In,"Children, Comedy"
+80,Black Sheep,Comedy
+81,Nick of Time,"Action, Thriller"
+82,Mary Reilly,"Drama, Horror, Thriller"
+83,Vampire in Brooklyn,"Comedy, Horror, Romance"
+84,Beautiful Girls,"Comedy, Drama, Romance"
+85,Broken Arrow,"Action, Adventure, Thriller"
+86,In the Bleak Midwinter,"Comedy, Drama"
+87,"Hate (Haine, La)","Crime, Drama"
+88,Shopping,"Action, Thriller"
+89,City Hall,"Drama, Thriller"
+90,Bottle Rocket,"Adventure, Comedy, Crime, Romance"
+91,Mr. Wrong,Comedy
+92,Unforgettable,"Mystery, Sci-Fi, Thriller"
+93,Happy Gilmore,Comedy
+94,"Bridges of Madison County, The","Drama, Romance"
+95,Muppet Treasure Island,"Adventure, Children, Comedy, Musical"
+96,Catwalk,Documentary
+97,Braveheart,"Action, Drama, War"
+98,Taxi Driver,"Crime, Drama, Thriller"
+99,Rumble in the Bronx (Hont faan kui),"Action, Adventure, Comedy, Crime"
+100,Before and After,"Drama, Mystery"
+101,Margaret's Museum,Drama
+102,Anne Frank Remembered,Documentary
+103,"Young Poisoner's Handbook, The","Crime, Drama"
+104,If Lucy Fell,"Comedy, Romance"
+105,"Steal Big, Steal Little",Comedy
+106,"Boys of St. Vincent, The",Drama
+107,Boomerang,"Comedy, Romance"
+108,Chungking Express (Chung Hing sam lam),"Drama, Mystery, Romance"
+109,"Star Maker, The (Uomo delle stelle, L')",Drama
+110,Flirting With Disaster,Comedy
+111,"NeverEnding Story III, The","Adventure, Children, Fantasy"
+112,Pie in the Sky,"Comedy, Romance"
+113,Angela,Drama
+114,Frankie Starlight,"Drama, Romance"
+115,Jade,Thriller
+116,Down Periscope,Comedy
+117,Man of the Year,Documentary
+118,Up Close and Personal,"Drama, Romance"
+119,"Birdcage, The",Comedy
+120,"Brothers McMullen, The",Comedy
+121,Bad Boys,"Action, Comedy, Crime, Drama, Thriller"
+122,"Amazing Panda Adventure, The","Adventure, Children"
+123,"Basketball Diaries, The",Drama
+124,"Awfully Big Adventure, An",Drama
+125,Amateur,"Crime, Drama, Thriller"
+126,Apollo 13,"Adventure, Drama, IMAX"
+127,Rob Roy,"Action, Drama, Romance, War"
+128,"Addiction, The","Drama, Horror"
+129,Batman Forever,"Action, Adventure, Comedy, Crime"
+130,Beauty of the Day (Belle de jour),Drama
+131,Beyond Rangoon,"Adventure, Drama, War"
+132,Blue in the Face,"Comedy, Drama"
+133,Canadian Bacon,"Comedy, War"
+134,Casper,"Adventure, Children"
+135,Clockers,"Crime, Drama, Mystery"
+136,Congo,"Action, Adventure, Mystery, Sci-Fi"
+137,Crimson Tide,"Drama, Thriller, War"
+138,Crumb,Documentary
+139,Desperado,"Action, Romance, Western"
+140,Devil in a Blue Dress,"Crime, Film-Noir, Mystery, Thriller"
+141,Die Hard: With a Vengeance,"Action, Crime, Thriller"
+142,"Doom Generation, The","Comedy, Crime, Drama"
+143,Feast of July,Drama
+144,First Knight,"Action, Drama, Romance"
+145,Hackers,"Action, Adventure, Crime, Thriller"
+146,Jeffrey,"Comedy, Drama"
+147,Johnny Mnemonic,"Action, Sci-Fi, Thriller"
+148,Judge Dredd,"Action, Crime, Sci-Fi"
+149,Jury Duty,Comedy
+150,Kids,Drama
+151,Living in Oblivion,Comedy
+152,Lord of Illusions,Horror
+153,Love & Human Remains,"Comedy, Drama"
+154,Mad Love,"Drama, Romance"
+155,Mallrats,"Comedy, Romance"
+156,Mighty Morphin Power Rangers: The Movie,"Action, Children"
+157,Mute Witness,"Comedy, Horror, Thriller"
+158,Nadja,Drama
+159,"Net, The","Action, Crime, Thriller"
+160,Nine Months,"Comedy, Romance"
+161,Party Girl,Comedy
+162,"Prophecy, The","Fantasy, Horror, Mystery"
+163,Reckless,"Comedy, Fantasy"
+164,Safe,Thriller
+165,"Scarlet Letter, The","Drama, Romance"
+166,Showgirls,Drama
+167,Smoke,"Comedy, Drama"
+168,Something to Talk About,"Comedy, Drama, Romance"
+169,Species,"Horror, Sci-Fi"
+170,Strange Days,"Action, Crime, Drama, Mystery, Sci-Fi, Thriller"
+171,"Umbrellas of Cherbourg, The (Parapluies de Cherbourg, Les)","Drama, Musical, Romance"
+172,"Tie That Binds, The",Thriller
+173,Three Wishes,"Drama, Fantasy"
+174,Total Eclipse,"Drama, Romance"
+175,"To Wong Foo, Thanks for Everything! Julie Newmar",Comedy
+176,Unstrung Heroes,"Comedy, Drama"
+177,Unzipped,Documentary
+178,"Walk in the Clouds, A","Drama, Romance"
+179,Waterworld,"Action, Adventure, Sci-Fi"
+180,White Man's Burden,Drama
+181,"Browning Version, The",Drama
+182,Burnt by the Sun (Utomlyonnye solntsem),Drama
+183,Before the Rain (Pred dozhdot),"Drama, War"
+184,Before Sunrise,"Drama, Romance"
+185,Billy Madison,Comedy
+186,"Babysitter, The","Drama, Thriller"
+187,Boys on the Side,"Comedy, Drama"
+188,"Cure, The",Drama
+189,Castle Freak,Horror
+190,Circle of Friends,"Drama, Romance"
+191,Clerks,Comedy
+192,Don Juan DeMarco,"Comedy, Drama, Romance"
+193,Disclosure,"Drama, Thriller"
+194,Drop Zone,"Action, Thriller"
+195,Destiny Turns on the Radio,Comedy
+196,Death and the Maiden,"Drama, Thriller"
+197,Dolores Claiborne,"Drama, Thriller"
+198,Dumb & Dumber (Dumb and Dumber),"Adventure, Comedy"
+199,Eat Drink Man Woman (Yin shi nan nu),"Comedy, Drama, Romance"
+200,Exotica,Drama
+201,Exit to Eden,Comedy
+202,Ed Wood,"Comedy, Drama"
+203,French Kiss,"Action, Comedy, Romance"
+204,Forget Paris,"Comedy, Romance"
+205,"Goofy Movie, A","Animation, Children, Comedy, Romance"
+206,Hideaway,Thriller
+207,Fluke,"Children, Drama"
+208,Farinelli: il castrato,"Drama, Musical"
+209,Gordy,"Children, Comedy, Fantasy"
+210,The Glass Shield,"Crime, Drama"
+211,Hoop Dreams,Documentary
+212,Heavenly Creatures,"Crime, Drama"
+213,Houseguest,Comedy
+214,Immortal Beloved,"Drama, Romance"
+215,Heavyweights (Heavy Weights),"Children, Comedy"
+216,"Hunted, The",Action
+217,I.Q.,"Comedy, Romance"
+218,Jefferson in Paris,Drama
+219,"Jerky Boys, The",Comedy
+220,Junior,"Comedy, Sci-Fi"
+221,Just Cause,"Mystery, Thriller"
+222,"Kid in King Arthur's Court, A","Adventure, Children, Comedy, Fantasy, Romance"
+223,Kiss of Death,"Crime, Drama, Thriller"
+224,Little Women,Drama
+225,"Little Princess, A","Children, Drama"
+226,Ladybird Ladybird,Drama
+227,"Enfer, L'",Drama
+228,Like Water for Chocolate (Como agua para chocolate),"Drama, Fantasy, Romance"
+229,Legends of the Fall,"Drama, Romance, War, Western"
+230,Major Payne,Comedy
+231,Little Odessa,"Crime, Drama"
+232,My Crazy Life (Mi vida loca),Drama
+233,Love Affair,"Drama, Romance"
+234,Losing Isaiah,Drama
+235,"Madness of King George, The","Comedy, Drama"
+236,Mary Shelley's Frankenstein (Frankenstein),"Drama, Horror, Sci-Fi"
+237,Man of the House,Comedy
+238,Mixed Nuts,Comedy
+239,Milk Money,"Comedy, Romance"
+240,Miracle on 34th Street,Drama
+241,Miami Rhapsody,Comedy
+242,Murder in the First,"Drama, Thriller"
+243,Nobody's Fool,"Comedy, Drama, Romance"
+244,Nell,Drama
+245,New Jersey Drive,"Crime, Drama"
+246,Beyond Bedlam,"Drama, Horror"
+247,Nina Takes a Lover,"Comedy, Romance"
+248,Natural Born Killers,"Action, Crime, Thriller"
+249,Only You,"Comedy, Romance"
+250,Once Were Warriors,"Crime, Drama"
+251,Poison Ivy II,"Drama, Thriller"
+252,Outbreak,"Action, Drama, Sci-Fi, Thriller"
+253,"Perez Family, The","Comedy, Romance"
+254,"Pyromaniac's Love Story, A","Comedy, Romance"
+255,Pulp Fiction,"Comedy, Crime, Drama, Thriller"
+256,Priest,Drama
+257,Quiz Show,Drama
+258,Picture Bride (Bijo photo),"Drama, Romance"
+259,"Queen Margot (Reine Margot, La)","Drama, Romance"
+260,"Quick and the Dead, The","Action, Thriller, Western"
+261,Roommates,"Comedy, Drama"
+262,Ready to Wear (Pret-A-Porter),Comedy
+263,"Red Firecracker, Green Firecracker (Pao Da Shuang Deng)",Drama
+264,Stuart Saves His Family,Comedy
+265,"Swan Princess, The","Animation, Children"
+266,"Secret of Roan Inish, The","Children, Drama, Fantasy, Mystery"
+267,"Specialist, The","Action, Drama, Thriller"
+268,Stargate,"Action, Adventure, Sci-Fi"
+269,"Santa Clause, The","Comedy, Drama, Fantasy"
+270,"Shawshank Redemption, The","Crime, Drama"
+271,Shallow Grave,"Comedy, Drama, Thriller"
+272,Suture,"Film-Noir, Thriller"
+273,Strawberry and Chocolate (Fresa y chocolate),Drama
+274,Swimming with Sharks,"Comedy, Drama"
+275,"Sum of Us, The","Comedy, Drama"
+276,National Lampoon's Senior Trip,Comedy
+277,To Live (Huozhe),Drama
+278,Tank Girl,"Action, Comedy, Sci-Fi"
+279,Tales from the Hood,"Action, Crime, Horror"
+280,Tom & Viv,Drama
+281,Village of the Damned,"Horror, Sci-Fi"
+282,Tommy Boy,Comedy
+283,Vanya on 42nd Street,Drama
+284,Underneath,"Mystery, Thriller"
+285,"Walking Dead, The","Drama, War"
+286,What's Eating Gilbert Grape,Drama
+287,Virtuosity,"Action, Sci-Fi, Thriller"
+288,While You Were Sleeping,"Comedy, Romance"
+289,"War, The","Adventure, Drama, War"
+290,Double Happiness,Drama
+291,Muriel's Wedding,Comedy
+292,"Baby-Sitters Club, The",Children
+293,"Adventures of Priscilla, Queen of the Desert, The","Comedy, Drama"
+294,Backbeat,"Drama, Musical"
+295,Bitter Moon,"Drama, Film-Noir, Romance"
+296,Bullets Over Broadway,Comedy
+297,Clear and Present Danger,"Action, Crime, Drama, Thriller"
+298,"Client, The","Drama, Mystery, Thriller"
+299,"Corrina, Corrina","Comedy, Drama, Romance"
+300,Crooklyn,"Comedy, Drama"
+301,"Crow, The","Action, Crime, Fantasy, Thriller"
+302,Cobb,Drama
+303,"Flintstones, The","Children, Comedy, Fantasy"
+304,Forrest Gump,"Comedy, Drama, Romance, War"
+305,Four Weddings and a Funeral,"Comedy, Romance"
+306,Higher Learning,Drama
+307,I Love Trouble,"Action, Comedy"
+308,It Could Happen to You,"Comedy, Drama, Romance"
+309,"Jungle Book, The","Adventure, Children, Romance"
+310,"Wonderful, Horrible Life of Leni Riefenstahl, The (Macht der Bilder: Leni Riefenstahl, Die)",Documentary
+311,"Lion King, The","Adventure, Animation, Children, Drama, Musical, IMAX"
+312,Little Buddha,Drama
+313,"Wes Craven's New Nightmare (Nightmare on Elm Street Part 7: Freddy's Finale, A)","Drama, Horror, Mystery, Thriller"
+314,"Mask, The","Action, Comedy, Crime, Fantasy"
+315,Maverick,"Adventure, Comedy, Western"
+316,Mrs. Parker and the Vicious Circle,Drama
+317,"Paper, The","Comedy, Drama"
+318,Reality Bites,"Comedy, Drama, Romance"
+319,Red Rock West,Thriller
+320,Richie Rich,"Children, Comedy"
+321,Safe Passage,Drama
+322,"River Wild, The","Action, Thriller"
+323,Speed,"Action, Romance, Thriller"
+324,Speechless,"Comedy, Romance"
+325,Timecop,"Action, Sci-Fi, Thriller"
+326,True Lies,"Action, Adventure, Comedy, Romance, Thriller"
+327,When a Man Loves a Woman,"Drama, Romance"
+328,Wolf,"Drama, Horror, Romance, Thriller"
+329,Wyatt Earp,Western
+330,Bad Company,"Action, Crime, Drama"
+331,"Low Down Dirty Shame, A","Action, Comedy"
+332,"Colonel Chabert, Le","Drama, Romance, War"
+333,Faster Pussycat! Kill! Kill!,"Action, Crime, Drama"
+334,Jason's Lyric,"Crime, Drama"
+335,Street Fighter,"Action, Adventure, Fantasy"
+336,Mirage,"Action, Thriller"
+337,In the Mouth of Madness,"Horror, Thriller"
+338,8 Seconds,Drama
+339,Above the Rim,"Crime, Drama"
+340,Addams Family Values,"Children, Comedy, Fantasy"
+341,"Age of Innocence, The",Drama
+342,Airheads,Comedy
+343,"Air Up There, The",Comedy
+344,Another Stakeout,"Comedy, Thriller"
+345,Bad Girls,Western
+346,Barcelona,"Comedy, Romance"
+347,Being Human,Drama
+348,"Beverly Hillbillies, The",Comedy
+349,Beverly Hills Cop III,"Action, Comedy, Crime, Thriller"
+350,Black Beauty,"Adventure, Children, Drama"
+351,Blink,Thriller
+352,Blown Away,"Action, Thriller"
+353,Blue Chips,Drama
+354,Blue Sky,"Drama, Romance"
+355,Body Snatchers,"Horror, Sci-Fi, Thriller"
+356,Boxing Helena,"Drama, Mystery, Romance, Thriller"
+357,"Bronx Tale, A",Drama
+358,Cabin Boy,Comedy
+359,Carlito's Way,"Crime, Drama"
+360,Clean Slate,Comedy
+361,Cliffhanger,"Action, Adventure, Thriller"
+362,Coneheads,"Comedy, Sci-Fi"
+363,Color of Night,"Drama, Thriller"
+364,Cops and Robbersons,Comedy
+365,"Cowboy Way, The","Action, Comedy, Drama"
+366,Dangerous Game,Drama
+367,Dave,"Comedy, Romance"
+368,Dazed and Confused,Comedy
+369,Demolition Man,"Action, Adventure, Sci-Fi"
+370,"Endless Summer 2, The","Adventure, Documentary"
+371,Even Cowgirls Get the Blues,"Comedy, Romance"
+372,Fatal Instinct,Comedy
+373,Farewell My Concubine (Ba wang bie ji),"Drama, Romance"
+374,"Favor, The","Comedy, Romance"
+375,Fearless,Drama
+376,Fear of a Black Hat,Comedy
+377,With Honors,"Comedy, Drama"
+378,Flesh and Bone,"Drama, Mystery, Romance"
+379,Widows' Peak,Drama
+380,For Love or Money,"Comedy, Romance"
+381,"Firm, The","Drama, Thriller"
+382,Free Willy,"Adventure, Children, Drama"
+383,Fresh,"Crime, Drama, Thriller"
+384,"Fugitive, The",Thriller
+385,"Getaway, The","Action, Adventure, Crime, Drama, Romance, Thriller"
+386,Getting Even with Dad,Comedy
+387,Go Fish,"Drama, Romance"
+388,Guilty as Sin,"Crime, Drama, Thriller"
+389,Hard Target,"Action, Adventure, Crime, Thriller"
+390,Heaven & Earth,"Action, Drama, War"
+391,Hot Shots! Part Deux,"Action, Comedy, War"
+392,Live Nude Girls,Comedy
+393,"Englishman Who Went Up a Hill But Came Down a Mountain, The","Comedy, Romance"
+394,"House of the Spirits, The","Drama, Romance"
+395,House Party 3,Comedy
+396,"Hudsucker Proxy, The",Comedy
+397,I'll Do Anything,"Comedy, Drama"
+398,In the Army Now,"Comedy, War"
+399,In the Line of Fire,"Action, Thriller"
+400,In the Name of the Father,Drama
+401,"Inkwell, The","Comedy, Drama"
+402,What's Love Got to Do with It?,"Drama, Musical"
+403,Judgment Night,"Action, Crime, Thriller"
+404,Jurassic Park,"Action, Adventure, Sci-Fi, Thriller"
+405,Kalifornia,"Drama, Thriller"
+406,Killing Zoe,"Crime, Drama, Thriller"
+407,King of the Hill,Drama
+408,Lassie,"Adventure, Children"
+409,Last Action Hero,"Action, Adventure, Comedy, Fantasy"
+410,Life with Mikey,Comedy
+411,Lightning Jack,"Comedy, Western"
+412,M. Butterfly,"Drama, Romance"
+413,Made in America,Comedy
+414,Malice,Thriller
+415,"Man Without a Face, The",Drama
+416,Manhattan Murder Mystery,"Comedy, Mystery"
+417,Menace II Society,"Action, Crime, Drama"
+418,Executive Decision,"Action, Adventure, Thriller"
+419,In the Realm of the Senses (Ai no corrida),Drama
+420,What Happened Was...,"Comedy, Drama, Romance, Thriller"
+421,Much Ado About Nothing,"Comedy, Romance"
+422,Mr. Jones,"Drama, Romance"
+423,Mr. Wonderful,"Comedy, Romance"
+424,Mrs. Doubtfire,"Comedy, Drama"
+425,Naked,Drama
+426,"Next Karate Kid, The","Action, Children, Romance"
+427,No Escape,"Action, Drama, Sci-Fi"
+428,North,Comedy
+429,Orlando,"Drama, Fantasy, Romance"
+430,"Perfect World, A","Crime, Drama, Thriller"
+431,Philadelphia,Drama
+432,"Piano, The","Drama, Romance"
+433,Poetic Justice,Drama
+434,"Program, The","Action, Drama"
+435,"Puppet Masters, The","Horror, Sci-Fi"
+436,Radioland Murders,"Comedy, Mystery, Romance"
+437,"Ref, The",Comedy
+438,"Remains of the Day, The","Drama, Romance"
+439,Renaissance Man,"Comedy, Drama"
+440,Rising Sun,"Action, Drama, Mystery"
+441,"Road to Wellville, The",Comedy
+442,RoboCop 3,"Action, Crime, Drama, Sci-Fi, Thriller"
+443,Romeo Is Bleeding,"Crime, Thriller"
+444,Romper Stomper,"Action, Drama"
+445,Ruby in Paradise,Drama
+446,Rudy,Drama
+447,"Savage Nights (Nuits fauves, Les)",Drama
+448,Schindler's List,"Drama, War"
+449,"Scout, The","Comedy, Drama"
+450,Searching for Bobby Fischer,Drama
+451,"Secret Garden, The","Children, Drama"
+452,Serial Mom,"Comedy, Crime, Horror"
+453,"Shadow, The","Action, Adventure, Fantasy, Mystery"
+454,Shadowlands,"Drama, Romance"
+455,Short Cuts,Drama
+456,"Simple Twist of Fate, A",Drama
+457,Sirens,Drama
+458,Six Degrees of Separation,Drama
+459,Sleepless in Seattle,"Comedy, Drama, Romance"
+460,Sliver,Thriller
+461,Blade Runner,"Action, Sci-Fi, Thriller"
+462,Son in Law,"Comedy, Drama, Romance"
+463,So I Married an Axe Murderer,"Comedy, Romance, Thriller"
+464,Striking Distance,"Action, Crime"
+465,Surviving the Game,"Action, Adventure, Thriller"
+466,Terminal Velocity,"Action, Mystery, Thriller"
+467,Thirty-Two Short Films About Glenn Gould,"Drama, Musical"
+468,Threesome,"Comedy, Romance"
+469,"Nightmare Before Christmas, The","Animation, Children, Fantasy, Musical"
+470,"Three Musketeers, The","Action, Adventure, Comedy, Romance"
+471,Tombstone,"Action, Drama, Western"
+472,Trial by Jury,"Crime, Drama, Thriller"
+473,True Romance,"Crime, Thriller"
+474,"War Room, The",Documentary
+475,"Pagemaster, The","Action, Adventure, Animation, Children, Fantasy"
+476,"Paris, France",Comedy
+477,Killer (Bulletproof Heart),"Drama, Thriller"
+478,Welcome to the Dollhouse,"Comedy, Drama"
+479,Germinal,"Drama, Romance"
+480,Chasers,Comedy
+481,Cronos,"Drama, Horror"
+482,Kika,"Comedy, Drama"
+483,Bhaji on the Beach,"Comedy, Drama"
+484,Little Big League,"Comedy, Drama"
+485,"Wedding Gift, The","Drama, Romance"
+486,"Ciao, Professore! (Io speriamo che me la cavo)",Drama
+487,Spanking the Monkey,"Comedy, Drama"
+488,"Little Rascals, The","Children, Comedy"
+489,Andre,"Adventure, Children, Drama"
+490,Princess Caraboo,Drama
+491,"Celluloid Closet, The",Documentary
+492,Métisse (Café au Lait),"Comedy, Drama"
+493,"Brady Bunch Movie, The",Comedy
+494,Home Alone,"Children, Comedy"
+495,Ghost,"Comedy, Drama, Fantasy, Romance, Thriller"
+496,Aladdin,"Adventure, Animation, Children, Comedy, Musical"
+497,Dances with Wolves,"Adventure, Drama, Western"
+498,Batman,"Action, Crime, Thriller"
+499,"Silence of the Lambs, The","Crime, Horror, Thriller"
+500,Snow White and the Seven Dwarfs,"Animation, Children, Drama, Fantasy, Musical"
+501,Beauty and the Beast,"Animation, Children, Fantasy, Musical, Romance, IMAX"
+502,Pinocchio,"Animation, Children, Fantasy, Musical"
+503,Pretty Woman,"Comedy, Romance"
+504,"Wild Bunch, The","Adventure, Western"
+505,Love and a .45,"Action, Comedy, Crime"
+506,"Bye Bye, Love",Comedy
+507,One Fine Day,"Drama, Romance"
+508,Heavy Metal,"Action, Adventure, Animation, Horror, Sci-Fi"
+509,"Pallbearer, The",Comedy
+510,Jane Eyre,"Drama, Romance"
+511,Loaded,"Drama, Thriller"
+512,Bread and Chocolate (Pane e cioccolata),"Comedy, Drama"
+513,"Aristocats, The","Animation, Children"
+514,"Flower of My Secret, The (La flor de mi secreto)","Comedy, Drama"
+515,Ed,Comedy
+516,Scream of Stone (Cerro Torre: Schrei aus Stein),Drama
+517,My Favorite Season,Drama
+518,"Thin Line Between Love and Hate, A",Comedy
+519,"Last Supper, The","Drama, Thriller"
+520,Primal Fear,"Crime, Drama, Mystery, Thriller"
+521,Carried Away,"Drama, Romance"
+522,All Dogs Go to Heaven 2,"Adventure, Animation, Children, Fantasy, Musical, Romance"
+523,Denise Calls Up,Comedy
+524,"Family Thing, A","Comedy, Drama"
+525,Sgt. Bilko,Comedy
+526,Jack and Sarah,Romance
+527,Girl 6,"Comedy, Drama"
+528,Diabolique,"Drama, Thriller"
+529,Courage Under Fire,"Action, Crime, Drama, War"
+530,Moll Flanders,Drama
+531,"Superweib, Das",Comedy
+532,Dragonheart,"Action, Adventure, Fantasy"
+533,Eddie,Comedy
+534,Purple Noon (Plein soleil),"Crime, Drama, Thriller"
+535,James and the Giant Peach,"Adventure, Animation, Children, Fantasy, Musical"
+536,Fear,Thriller
+537,Faithful,Comedy
+538,Underground,"Comedy, Drama, War"
+539,Bloodsport 2 (a.k.a. Bloodsport II: The Next Kumite),Action
+540,Song of the Little Road (Pather Panchali),Drama
+541,"World of Apu, The (Apur Sansar)",Drama
+542,Barbarella,"Adventure, Comedy, Sci-Fi"
+543,Some Folks Call It a Sling Blade,"Drama, Thriller"
+544,"Run of the Country, The",Drama
+545,"Alphaville (Alphaville, une étrange aventure de Lemmy Caution)","Drama, Mystery, Romance, Sci-Fi, Thriller"
+546,Coup de torchon (Clean Slate),Crime
+547,It's My Party,Drama
+548,Country Life,"Drama, Romance"
+549,Operation Dumbo Drop,"Action, Adventure, Comedy, War"
+550,"Promise, The (Versprechen, Das)","Drama, Romance"
+551,Mrs. Winterbourne,"Comedy, Romance"
+552,Solo,"Action, Sci-Fi, Thriller"
+553,"Substitute, The","Action, Crime, Drama"
+554,True Crime,"Mystery, Thriller"
+555,Butterfly Kiss,"Drama, Thriller"
+556,Feeling Minnesota,"Drama, Romance"
+557,Delta of Venus,Drama
+558,Angus,Comedy
+559,Faces,Drama
+560,Boys,Drama
+561,"Quest, The","Action, Adventure"
+562,Cosi,Comedy
+563,Mulholland Falls,"Crime, Drama, Thriller"
+564,"Truth About Cats & Dogs, The","Comedy, Romance"

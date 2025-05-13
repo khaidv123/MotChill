@@ -1,0 +1,146 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Explore a comprehensive list of movies with ratings, reviews, and details on Movie List Page." />
+    <meta name="keywords" content="movies, film list, movie ratings, movie reviews" />
+    <title>Movie List Page</title>
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!--css-->
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+    <!--hieu ung-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  </head>
+  <body style="background-color: #2e3039;">
+    <!-- Navigation Bar -->
+    <header class="shadow-md z-10">
+      <nav class="flex justify-between items-center mx-16 py-5">
+        <div>
+          <a href="{% url 'movies:movie_list' %}">
+            <img class="w-32" src="{% static 'logo1.png' %}" alt="movie shop" />
+          </a>
+        </div>
+        <div class="hidden md:block">
+          <ul class="flex items-center gap-4 text-sm font-semibold">
+            <li>
+              <a href="{% url 'movies:popular_movies_list' %}" class="text-gray-300 hover:text-gray-400 {% if request.path == '/popular-movies/' %}text-blue-400{% endif %}">
+                MOST POPULAR
+              </a>
+            </li>
+            <li>
+              <a href="{% url 'movies:new_movies_list' %}" class="text-gray-300 hover:text-gray-400 {% if request.path == '/new-movies/' %}text-blue-400{% endif %}">
+                NEW MOVIES
+              </a>
+            </li>
+            <li>
+              <a href="{% url 'movies:tv_series_list' %}" class="text-gray-300 hover:text-gray-400 {% if request.path == '/tv-series/' %}text-blue-400{% endif %}">
+                TV SERIES
+              </a>
+            </li>
+            <li>
+              <a href="{% url 'subscription:subscriptions_list' %}" class="text-gray-300 hover:text-gray-400 {% if request.path == '/pricing/' %}text-blue-400{% endif %}">
+                PRICING
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="md:hidden">
+          <button id="sidebarToggle" class="text-gray-400 focus:outline-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+          </button>
+        </div>
+        <div class="hidden md:block">
+          <!-- Profile section -->
+          {% if user.is_authenticated %}
+          <div class="relative inline-block text-left">
+            <button type="button" id="userMenuButton" class="inline-flex items-center justify-center w-full px-4 py-2 text-sm font-medium text-white bg-gray-800 border border-gray-700 rounded-md shadow-sm hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+              <span>{{ user.username }}</span>
+              <svg class="w-4 h-4 ml-2 -mr-1 stroke-current text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                <path d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <!-- Dropdown menu -->
+            <div id="userMenu" class="origin-top-right absolute right-0 mt-2 w-56 rounded-md bg-gray-800 shadow-lg ring-1 ring-black ring-opacity-5 hidden" role="menu" aria-orientation="vertical" aria-labelledby="userMenuButton" tabindex="-1">
+              <div class="py-1" role="none">
+                <a href="{% url 'account:user_profile_detail' %}" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700" role="menuitem">Account</a>
+                <form action="{% url 'account:logout' %}" method="post" class="inline">
+                  {% csrf_token %}
+                  <button type="submit" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700" role="menuitem">Logout</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          {% else %}
+          <a href="{% url 'account:signup' %}" class="inline-block px-4 py-2 text-xs font-medium text-white transition duration-300 ease-in-out bg-blue-600 border border-blue-600 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-50">
+            Get Started
+          </a>
+          {% endif %}
+        </div>
+      </nav>
+      <div id="sidebar" class="md:hidden fixed inset-0 bg-gray-900 text-white shadow-lg z-50 transform -translate-x-full transition duration-300 ease-in-out">
+        <div class="flex justify-between items-center bg-gray-800 px-4 py-2">
+          <div>
+            <img class="w-32" src="{% static 'logo1.png' %}" alt="movie shop" />
+          </div>
+          <button id="sidebarClose" class="text-white focus:outline-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+          </button>
+        </div>
+        <ul class="mt-4">
+          <li><a class="block py-2 px-4 text-gray-300 hover:bg-gray-700" href="{% url 'movies:movie_list' %}">Movies</a></li>
+          <li><a class="block py-2 px-4 text-gray-300 hover:bg-gray-700" href="#">TV Shows</a></li>
+          <li><a class="block py-2 px-4 text-gray-300 hover:bg-gray-700" href="#">Rent/Purchase</a></li>
+          <li><a class="block py-2 px-4 text-gray-300 hover:bg-gray-700" href="#">My Library</a></li>
+          <li><a class="block py-2 px-4 text-gray-300 hover:bg-gray-700" href="#">Account Settings</a></li>
+          <li><a class="block py-2 px-4 text-gray-300 hover:bg-gray-700" href="#">Extras</a></li>
+        </ul>
+      </div>
+    </header>
+    {% block content %} {% endblock %}
+    <footer class="bg-gray-900 text-white py-8">
+      <div class="container mx-auto flex flex-col items-center">
+        <p class="text-lg mb-4">Connect with us on social media:</p>
+        <div class="flex space-x-4">
+          <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M23 0H1C.447 0 0 .447 0 1v22c0 .553.447 1 1 1h11.5v-9h-3v-3h3v-1.8c0-3.496 2.127-5.4 5.247-5.4 1.476 0 2.753.111 3.13.16v3.63l-2.14.001c-1.675 0-2.003.796-2.003 1.969v2.6h4.056l-.527 3h-3.529V24h6.852c.553 0 1-.447 1-1V1c0-.553-.447-1-1-1z" />
+            </svg>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M22 12.1c0-.1 0-.1 0-.2s0-.1 0-.2c-.3-2.4-1.2-4.6-2.7-6.5L12 12l7.3 7.3c1.5-1.9 2.4-4.1 2.7-6.5zM12 2.5c.5 0 .9 0 1.4.1 2.6.3 5.1 1.4 7 3.4 1.7 1.7 3.1 3.8 4 6.1.4 1.2.6 2.5.6 3.8s-.2 2.6-.6 3.8c-.9 2.3-2.3 4.4-4 6.1-1.9 1.9-4.4 3.1-7 3.4-1.5.1-2.9.1-4.4.1-.5 0-.9 0-1.4-.1-2.5-.3-4.9-1.2-7-3.4-1.8-1.7-3.2-3.8-4-6.1-.4-1.2-.6-2.5-.6-3.8s.2-2.6.6-3.8c.9-2.3 2.2-4.4 4-6.1 1.9-1.9 4.4-3.1 7-3.4.5-.1.9-.1 1.4-.1zM12 4c-2.5 0-4.9.8-7 2.2-1.7 1.6-3.1 3.6-4 5.8-.3 1.1-.5 2.3-.5 3.4 0 1.1.2 2.3.5 3.4.9 2.2 2.3 4.2 4 5.8 2.1 1.4 4.5 2.2 7 2.2 1.5 0 3.1-.2 4.6-.5-.6-.7-1.1-1.4-1.6-2.2-.4-.7-.8-1.4-1.1-2.2-.3-.8-.6-1.7-.8-2.5-.3-1.2-.5-2.4-.5-3.6s.2-2.4.5-3.6c.2-.8.5-1.6.8-2.5.3-.8.7-1.5 1.1-2.2.5-.8 1-1.5 1.6-2.2-1.5-.3-3.1-.5-4.6-.5z" />
+            </svg>
+          </a>
+        </div>
+        <p class="text-sm mt-4">&copy; 2024 Movie List. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init();
+
+      document.getElementById('sidebarToggle').addEventListener('click', function() {
+        document.getElementById('sidebar').classList.toggle('-translate-x-full');
+      });
+
+      document.getElementById('sidebarClose').addEventListener('click', function() {
+        document.getElementById('sidebar').classList.add('-translate-x-full');
+      });
+
+      document.getElementById('userMenuButton').addEventListener('click', function() {
+        document.getElementById('userMenu').classList.toggle('hidden');
+      });
+    </script>
+  </body>
+</html>

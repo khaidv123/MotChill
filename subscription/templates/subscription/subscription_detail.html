@@ -1,0 +1,35 @@
+{% extends 'movie/base.html' %}
+
+{% block content %}
+<div class="flex justify-center items-center h-screen">
+  <form method="POST" action="{% url 'subscription:checkout' %}" class="bg-gray-800 shadow-md rounded px-8 pt-6 pb-8 mb-4 w-full max-w-md border border-gray-700">
+    {% csrf_token %}
+    <input type="hidden" name="subscription_id" value="{{ subscription.id }}">
+    <input type="hidden" name="monthly_price" value="{{ monthly_price }}">
+    <input type="hidden" name="semi_annual_price" value="{{ semi_annual_price }}">
+    <input type="hidden" name="annual_price" value="{{ annual_price }}">
+    
+    <h2 class="text-2xl font-semibold mb-6 text-center text-gray-200">Choose a Subscription Plan</h2>
+
+    <div class="mb-6">
+      <label class="block text-gray-400 font-bold mb-2">Select Duration:</label>
+      <div class="flex items-center">
+        <input type="radio" id="monthly" name="selected_duration" value="monthly" class="mr-2">
+        <label for="monthly" class="cursor-pointer text-gray-300">Subscribe Monthly - ${{ monthly_price }}</label>
+      </div>
+      <div class="flex items-center mt-2">
+        <input type="radio" id="semi_annual" name="selected_duration" value="semi_annual" class="mr-2">
+        <label for="semi_annual" class="cursor-pointer text-gray-300">Subscribe 6 months - ${{ semi_annual_price }}</label>
+      </div>
+      <div class="flex items-center mt-2">
+        <input type="radio" id="annual" name="selected_duration" value="annual" class="mr-2">
+        <label for="annual" class="cursor-pointer text-gray-300">Subscribe 12 months - ${{ annual_price }}</label>
+      </div>
+    </div>
+    
+    <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded focus:outline-none focus:ring-4 focus:ring-blue-500">
+        Proceed to Checkout
+    </button>
+  </form>
+</div>
+{% endblock %}
