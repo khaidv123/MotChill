@@ -6,6 +6,8 @@ quản lý hồ sơ cá nhân, xem danh sách phim, xem chi tiết phim, quản 
 dịch vụ, và thanh toán qua PayPal. Hệ thống phải hỗ trợ các chức năng cơ bản như xác thực người dùng, quản
 lý hồ sơ, và xử lý các yêu cầu liên quan đến phim và đánh giá phim.
 
+![UI image](images/web_iu.png)
+
 ## Hướng dẫn sử dụng
 
 ### Yêu cầu
