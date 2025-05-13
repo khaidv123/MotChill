@@ -1,12 +1,32 @@
 # MotChill - Movie Website
 
-## Mô tả
+## Giới thiệu
 MotChill là một hệ thống web quản lý nội dung phim (MovieSubscription) cho phép người dùng đăng ký tài khoản,
 quản lý hồ sơ cá nhân, xem danh sách phim, xem chi tiết phim, quản lý danh sách phim yêu thích, đăng ký gói
 dịch vụ, và thanh toán qua PayPal. Hệ thống phải hỗ trợ các chức năng cơ bản như xác thực người dùng, quản
 lý hồ sơ, và xử lý các yêu cầu liên quan đến phim và đánh giá phim.
 
-![UI image](images/web_iu.png)
+![UI image](assets/web_iu.png)
+
+## Ứng dụng
+### 1. Mô tả yêu cầu
+- Mục tiêu: Xây dựng web MotChill hỗ trợ đăng ký/đăng nhập, quản lý hồ sơ, xem/quản lý phim, thanh toán PayPal, đánh giá phim.
+- Vấn đề: Trải nghiệm người dùng kém, bảo mật thanh toán, quản lý nội dung phức tạp, khó mở rộng.
+- Giải pháp: Tối ưu giao diện, tích hợp AI gợi ý, đảm bảo thanh toán an toàn.
+
+### 2. Mô hình gợi ý phim
+- Phương pháp: Sử dụng Neural Collaborative Filtering (NCF) để gợi ý phim.
+
+### 3. Kiến trúc dự án
+Nền tảng: Dựa trên Django MVC:
+   - movie: Quản lý phim.
+   - user_profile: Hồ sơ, danh sách yêu thích.
+   - review: Đánh giá phim.
+   - subscription: Gói đăng ký, thanh toán.
+
+Thiết kế: Modular, tuân thủ SOLID, tích hợp PayPal.
+
+💡Báo cáo chi tiết xem ở ![Report](assets/MLOps.pdf)
 
 ## Hướng dẫn sử dụng
 
