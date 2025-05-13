@@ -44,7 +44,7 @@ Trước khi bắt đầu, hãy đảm bảo rằng bạn đã cài đặt các 
    Sử dụng Git để clone repository về máy tính của bạn:
 
    ```bash
-   git clone https://github.com/DucDM2202/Movie_Web.git
+   git clone https://github.com/khaidv123/MotChill.git
 
 2. **Di chuyển đến Thư mục Dự án**
    
